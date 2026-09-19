@@ -9,16 +9,16 @@ window.NOHO_PARK = {
     {
       id: 'cesta-k-parku',
       title: 'Cesta k parku',
-      still: 'assets/cesta-k-parku.webp',
-      cubePrefix: 'assets/cube/cesta-k-parku',
-      video: null,
+      still: 'assets/cesta-k-parku-v2.webp',
+      cubePrefix: 'assets/cube/cesta-k-parku-v2',
+      video: 'assets/cesta-k-parku.mp4',
     },
     {
       id: 'hriste',
       title: 'Hřiště',
       still: 'assets/hriste.webp',
       cubePrefix: 'assets/cube/hriste',
-      video: null,
+      video: 'assets/hriste.mp4',
     },
   ],
 };

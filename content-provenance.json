@@ -1,111 +1,111 @@
 {
   "sources": [
     {
-      "id": "cesta-k-parku",
-      "filename": "kacice cesta park(1).png",
-      "width": 10188,
-      "height": 5094,
-      "sha256": "b5504f1334adcf5b9ed007d0036b43fce03cb93cc7f4a4456e32795def01bef2"
-    },
-    {
       "id": "hriste",
       "filename": "Hriste kacice fin(1).png",
       "width": 10194,
       "height": 5097,
       "sha256": "a2da3333d30089699dfbc173e5cc79cc3abc1dd894a33c0756b38ea3f2fd7801"
+    },
+    {
+      "id": "cesta-k-parku",
+      "filename": "kacice cesta park(update1).png",
+      "width": 10188,
+      "height": 5094,
+      "sha256": "f61d9a7e56510c31a7d61ee57d6a34bbdb288ca15d89cc1d66f18c15bf2c1fd3"
     }
   ],
   "generated": [
     {
-      "path": "assets/cesta-k-parku.webp",
-      "bytes": 9198564,
+      "path": "assets/cesta-k-parku-v2.webp",
+      "bytes": 7863850,
       "width": 8192,
       "height": 4096,
-      "sha256": "424e487596ab6a53fdf18419d5afb72c295dc1ba3d980cd3034323f98d99a58f"
+      "sha256": "a15a19be444768b56b7dcbebfc3c79f7682a3a1b69581a3e4f950f86ae115643"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2048-nx.webp",
-      "bytes": 947146,
+      "path": "assets/cube/cesta-k-parku-v2-2048-nx.webp",
+      "bytes": 837048,
       "width": 2048,
       "height": 2048,
-      "sha256": "1231f9308eb2ba3394254c37709d80a0f6961ff2639476466f7095c0c130c496"
+      "sha256": "1a987ed4eb3b8d30d1b7b55fd87d8ca32bc9d03e38c8115c7e42344b77899403"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2048-ny.webp",
-      "bytes": 1509356,
+      "path": "assets/cube/cesta-k-parku-v2-2048-ny.webp",
+      "bytes": 1083228,
       "width": 2048,
       "height": 2048,
-      "sha256": "90be23b1c507fedb79f67364e79df4b3c8da892b20e14917f25ecb71a8026b64"
+      "sha256": "150efc03498a0976c349d9ba6970debc91bd750605446022412347723338366c"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2048-nz.webp",
-      "bytes": 974982,
+      "path": "assets/cube/cesta-k-parku-v2-2048-nz.webp",
+      "bytes": 872358,
       "width": 2048,
       "height": 2048,
-      "sha256": "ad4441a045fe4c226d0031cf1a3b146e7c5267dec535fa76652b88677bfbf5ed"
+      "sha256": "e070d44010eb37ab01eb6d8523efbff7c40b0b818a24653e5ee862c82d93fc77"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2048-px.webp",
-      "bytes": 957740,
+      "path": "assets/cube/cesta-k-parku-v2-2048-px.webp",
+      "bytes": 860752,
       "width": 2048,
       "height": 2048,
-      "sha256": "3ad2c60591c1670742164e3266586c4a2de7935eb13630c1b3c198debf694e08"
+      "sha256": "fa5704d088a71369c99387de2724a3c621105a16ae15c521eabab0efed12041d"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2048-py.webp",
-      "bytes": 166832,
+      "path": "assets/cube/cesta-k-parku-v2-2048-py.webp",
+      "bytes": 146310,
       "width": 2048,
       "height": 2048,
-      "sha256": "c7a590bf535fbf61293d3d08463edb87026af30b78ccad59c24eb0b21a372b31"
+      "sha256": "ca1d2753dc8751843da66f7a37b1295528496b0a4f410215760d5a0cb7bfd35f"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2048-pz.webp",
-      "bytes": 1144326,
+      "path": "assets/cube/cesta-k-parku-v2-2048-pz.webp",
+      "bytes": 1058996,
       "width": 2048,
       "height": 2048,
-      "sha256": "b148958123eb48274c8cb13e756e99975c7b1c8232cc76dcf715ab38874dbab7"
+      "sha256": "126b0b2829782d6386de992b947ef2d7f79833bcf3b7d6e0402698b5a845366f"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2560-nx.webp",
-      "bytes": 1349490,
+      "path": "assets/cube/cesta-k-parku-v2-2560-nx.webp",
+      "bytes": 1122852,
       "width": 2560,
       "height": 2560,
-      "sha256": "3b89fa529bdf1cc36dc1bb4960f3d9b42254c2b55e10a6f30cd83a91aa258142"
+      "sha256": "0b9d1983a9cc5ae3841bc5f8d568847c42aadda4c0069350ffe9eba8f3eac85c"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2560-ny.webp",
-      "bytes": 2144522,
+      "path": "assets/cube/cesta-k-parku-v2-2560-ny.webp",
+      "bytes": 1459926,
       "width": 2560,
       "height": 2560,
-      "sha256": "a80c3808d2857120f683415b5647d8fb3335c0656977de601ec29fe4e87d88d7"
+      "sha256": "e60f104ab97f2da5384588610e9f2bbf2abce83eeeef96b7204234ad8b74fa24"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2560-nz.webp",
-      "bytes": 1441462,
+      "path": "assets/cube/cesta-k-parku-v2-2560-nz.webp",
+      "bytes": 1203958,
       "width": 2560,
       "height": 2560,
-      "sha256": "97fd354b385477e5b01dfee87c509cf1015bec93731203a64a34737c07e72231"
+      "sha256": "f12b1d3c7c3472ba8d98397552c2014f8ee25d7315ad3055ac1e432260d49719"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2560-px.webp",
-      "bytes": 1434910,
+      "path": "assets/cube/cesta-k-parku-v2-2560-px.webp",
+      "bytes": 1215308,
       "width": 2560,
       "height": 2560,
-      "sha256": "691add13523150c3e0a54d6c4d167fa18fbaf54d5ddd7e40546fded4a6e3c84b"
+      "sha256": "356393ea7e682285e0eaf8f87e888aca1344d6d4c484e90d88447f8149b82c1e"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2560-py.webp",
-      "bytes": 242730,
+      "path": "assets/cube/cesta-k-parku-v2-2560-py.webp",
+      "bytes": 219724,
       "width": 2560,
       "height": 2560,
-      "sha256": "7f98b170fd49792930d402618eeaeb21e3c529b5e7367c4714a59866dd1e148d"
+      "sha256": "a4cce3ce1fa7899ec1c47481917798cb3d81edf571920ada62484c8b66596966"
     },
     {
-      "path": "assets/cube/cesta-k-parku-2560-pz.webp",
-      "bytes": 1708742,
+      "path": "assets/cube/cesta-k-parku-v2-2560-pz.webp",
+      "bytes": 1464094,
       "width": 2560,
       "height": 2560,
-      "sha256": "86856ebae1610b4b6301f672fce7c5e345772c1214fa59f6f45ea9dcacd49469"
+      "sha256": "09af910c86f521ded29bcb0b2c296ba2efe478402f33391962750956a0dae197"
     },
     {
       "path": "assets/cube/hriste-2048-nx.webp",
@@ -202,5 +202,37 @@
   "cubeSizes": [
     2048,
     2560
+  ],
+  "videos": [
+    {
+      "id": "cesta-k-parku",
+      "sourceFilename": "a12faa72-6316-44cf-bb3f-ecca65232d5e.mp4",
+      "path": "assets/cesta-k-parku.mp4",
+      "bytes": 2968559,
+      "sha256": "feee60d169e57a5084904610901daec51318cc61b07c43df3d0786a385c2d743",
+      "sourceSha256": "feee60d169e57a5084904610901daec51318cc61b07c43df3d0786a385c2d743",
+      "transcoded": false,
+      "width": 4096,
+      "height": 2048,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "frameRate": "24/1",
+      "durationSeconds": 5.0
+    },
+    {
+      "id": "hriste",
+      "sourceFilename": "c687c57d-67ad-4091-ab0c-90bb51386229.mp4",
+      "path": "assets/hriste.mp4",
+      "bytes": 2648978,
+      "sha256": "b813cd6475500fe14f2b8faa88d791ece304ae01dc9399d0cf15cd45c27daebd",
+      "sourceSha256": "b813cd6475500fe14f2b8faa88d791ece304ae01dc9399d0cf15cd45c27daebd",
+      "transcoded": false,
+      "width": 4096,
+      "height": 2048,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "frameRate": "24/1",
+      "durationSeconds": 5.0
+    }
   ]
 }

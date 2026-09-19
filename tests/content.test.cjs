@@ -46,12 +46,16 @@ test('each configured still has both complete cube profiles and an 8K fallback',
     if (view.video !== null) {
       assert.match(view.video, /\.mp4$/);
       localFile(view.video);
+      const video = provenance.videos.find(file => file.path === view.video);
+      assert.equal(video.id, view.id);
+      assert.equal(video.width, video.height * 2);
+      assert.ok(video.durationSeconds > 0);
     }
   }
 });
 
-test('all generated panorama assets match their recorded hashes', () => {
-  for (const asset of provenance.generated) {
+test('all panorama images and animations match their recorded hashes', () => {
+  for (const asset of [...provenance.generated, ...(provenance.videos || [])]) {
     const data = readFileSync(localFile(asset.path));
     assert.equal(data.length, asset.bytes);
     assert.equal(createHash('sha256').update(data).digest('hex'), asset.sha256, asset.path);
