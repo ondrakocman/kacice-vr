@@ -1,0 +1,206 @@
+{
+  "sources": [
+    {
+      "id": "cesta-k-parku",
+      "filename": "kacice cesta park(1).png",
+      "width": 10188,
+      "height": 5094,
+      "sha256": "b5504f1334adcf5b9ed007d0036b43fce03cb93cc7f4a4456e32795def01bef2"
+    },
+    {
+      "id": "hriste",
+      "filename": "Hriste kacice fin(1).png",
+      "width": 10194,
+      "height": 5097,
+      "sha256": "a2da3333d30089699dfbc173e5cc79cc3abc1dd894a33c0756b38ea3f2fd7801"
+    }
+  ],
+  "generated": [
+    {
+      "path": "assets/cesta-k-parku.webp",
+      "bytes": 9198564,
+      "width": 8192,
+      "height": 4096,
+      "sha256": "424e487596ab6a53fdf18419d5afb72c295dc1ba3d980cd3034323f98d99a58f"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2048-nx.webp",
+      "bytes": 947146,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "1231f9308eb2ba3394254c37709d80a0f6961ff2639476466f7095c0c130c496"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2048-ny.webp",
+      "bytes": 1509356,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "90be23b1c507fedb79f67364e79df4b3c8da892b20e14917f25ecb71a8026b64"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2048-nz.webp",
+      "bytes": 974982,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "ad4441a045fe4c226d0031cf1a3b146e7c5267dec535fa76652b88677bfbf5ed"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2048-px.webp",
+      "bytes": 957740,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "3ad2c60591c1670742164e3266586c4a2de7935eb13630c1b3c198debf694e08"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2048-py.webp",
+      "bytes": 166832,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "c7a590bf535fbf61293d3d08463edb87026af30b78ccad59c24eb0b21a372b31"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2048-pz.webp",
+      "bytes": 1144326,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "b148958123eb48274c8cb13e756e99975c7b1c8232cc76dcf715ab38874dbab7"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2560-nx.webp",
+      "bytes": 1349490,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "3b89fa529bdf1cc36dc1bb4960f3d9b42254c2b55e10a6f30cd83a91aa258142"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2560-ny.webp",
+      "bytes": 2144522,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "a80c3808d2857120f683415b5647d8fb3335c0656977de601ec29fe4e87d88d7"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2560-nz.webp",
+      "bytes": 1441462,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "97fd354b385477e5b01dfee87c509cf1015bec93731203a64a34737c07e72231"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2560-px.webp",
+      "bytes": 1434910,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "691add13523150c3e0a54d6c4d167fa18fbaf54d5ddd7e40546fded4a6e3c84b"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2560-py.webp",
+      "bytes": 242730,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "7f98b170fd49792930d402618eeaeb21e3c529b5e7367c4714a59866dd1e148d"
+    },
+    {
+      "path": "assets/cube/cesta-k-parku-2560-pz.webp",
+      "bytes": 1708742,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "86856ebae1610b4b6301f672fce7c5e345772c1214fa59f6f45ea9dcacd49469"
+    },
+    {
+      "path": "assets/cube/hriste-2048-nx.webp",
+      "bytes": 980934,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "836424f4a5393cd65d2f7a006814faec565ecd1e4fe029e9be88e410f5687068"
+    },
+    {
+      "path": "assets/cube/hriste-2048-ny.webp",
+      "bytes": 1885834,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "6571b7546c6e98fd570b13c598194ddeafc311454aaa9feb2a0cdbe424f2eb82"
+    },
+    {
+      "path": "assets/cube/hriste-2048-nz.webp",
+      "bytes": 1127426,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "648fcfa73e16e0fad52ab95154d558e94936f0a2e599c67d100a8e9cc6a022d6"
+    },
+    {
+      "path": "assets/cube/hriste-2048-px.webp",
+      "bytes": 955718,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "d567e30c381320a0c34f9f2aab94856de71eb614c61b94fab45e0c1d4413dae2"
+    },
+    {
+      "path": "assets/cube/hriste-2048-py.webp",
+      "bytes": 121632,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "c120210ffb3c26e8448f1f119029a2bd2bbe256110a5da799f5951303d61e887"
+    },
+    {
+      "path": "assets/cube/hriste-2048-pz.webp",
+      "bytes": 858026,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "160c021a6870b7d43899351abd9a3ae193cab610c3367f71e949f694f519c192"
+    },
+    {
+      "path": "assets/cube/hriste-2560-nx.webp",
+      "bytes": 1425204,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "c88bd621f7f77dd192025e6505bf0901b49a3e5fd5e2b04a16f18e7d528774d8"
+    },
+    {
+      "path": "assets/cube/hriste-2560-ny.webp",
+      "bytes": 2751536,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "78d38c6173c2d07b251ffef63ee83e27418ee51414668753db62064e79c84477"
+    },
+    {
+      "path": "assets/cube/hriste-2560-nz.webp",
+      "bytes": 1635410,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "85a197cccf8b2eb9092d06b58cf310df30d090f3d687d5d697d870f75acb1796"
+    },
+    {
+      "path": "assets/cube/hriste-2560-px.webp",
+      "bytes": 1406478,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "72ff8e6c866a5491fd673f78fc7272cee90c5d6b61894b6fd8efd0d06c5fa1d4"
+    },
+    {
+      "path": "assets/cube/hriste-2560-py.webp",
+      "bytes": 169992,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "68cd9b5f511f93b5e638fb7ee1dc4b8c4f0e8d4da3a385674385f8d1ae91b408"
+    },
+    {
+      "path": "assets/cube/hriste-2560-pz.webp",
+      "bytes": 1255904,
+      "width": 2560,
+      "height": 2560,
+      "sha256": "50a2ffa7ae7e0220ff0cc46adbe41dbbf51ad21ce5903e198c0985006b57081b"
+    },
+    {
+      "path": "assets/hriste.webp",
+      "bytes": 9569134,
+      "width": 8192,
+      "height": 4096,
+      "sha256": "ae6582ba7379266a38b75086e9c4a13e02a988791894ec8df60cc2a44bec4862"
+    }
+  ],
+  "cubeSizes": [
+    2048,
+    2560
+  ]
+}
