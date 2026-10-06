@@ -4,6 +4,7 @@
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -15,7 +16,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('viewpoint', choices=['cesta-k-parku', 'hriste'])
     parser.add_argument('source', type=Path)
+    parser.add_argument('--revision', help='Optional URL revision, e.g. v2, to bypass cached older media')
     args = parser.parse_args()
+    if args.revision and not re.fullmatch(r'[a-z0-9-]+', args.revision):
+        parser.error('Revision must contain only lowercase letters, digits, or hyphens.')
     if args.source.stat().st_size >= 100 * 1024 * 1024:
         parser.error('The MP4 exceeds the GitHub per-file size limit.')
     probe = json.loads(subprocess.check_output([
@@ -25,7 +29,8 @@ def main():
     if len(videos) != 1 or videos[0]['width'] != videos[0]['height'] * 2:
         parser.error('Expected one full 2:1 panorama video stream.')
     video = videos[0]
-    destination = ROOT / 'assets' / f'{args.viewpoint}.mp4'
+    suffix = f'-{args.revision}' if args.revision else ''
+    destination = ROOT / 'assets' / f'{args.viewpoint}{suffix}.mp4'
     shutil.copyfile(args.source, destination)
     with destination.open('rb') as stream:
         digest = hashlib.file_digest(stream, 'sha256').hexdigest()

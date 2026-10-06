@@ -16,13 +16,16 @@ approximately 10K wide. Cube faces are generated directly from those originals a
 for browsers without cube layers. Source and generated-file hashes are in `content-provenance.json`.
 Source pixels are resampled/compressed for web delivery; original PNGs are preserved on disk.
 
-Both viewpoints now include their supplied 4096 × 2048 H.264 animations: 24 fps, five seconds each,
+The Cesta k parku animation is the corrected `kacice cesta park v2 8k.mp4` from Desktop,
+at 8192 × 4096. Hřiště remains at 4096 × 2048. Both are H.264, 24 fps, five seconds each,
 looped by the viewer. MP4s are copied byte-for-byte without re-encoding and already have their metadata
 before the media payload for progressive loading. No media is preloaded on the landing page.
 Setting a view’s `video` field to `null` hides its animation controls.
 
-Release 1.1 replaces the road still with `update1`. Its image filenames and the configuration script URL
-are versioned so returning visitors request the new media rather than cached versions.
+Release 1.1 replaced the road still with `update1`. Release 1.2 replaces the road animation with the
+supplied correction for malformed pixels at the bottom. Changed media and configuration URLs are
+versioned so returning visitors request the new files rather than cached versions. The replacement's
+higher resolution requires a fresh Quest playback check; desktop decoding does not establish VR performance.
 
 ## Use on Quest 3
 
@@ -41,15 +44,16 @@ assets; it does not provide the native APK's offline installation behavior.
 1. Import the original MP4 and update its checksum/metadata record (requires `ffprobe`):
 
    ```bash
-   python3 tools/import_video.py cesta-k-parku '/path/to/road-animation.mp4'
+   python3 tools/import_video.py cesta-k-parku '/path/to/road-animation.mp4' --revision v2
    python3 tools/import_video.py hriste '/path/to/field-animation.mp4'
    ```
 
-   Run the command for each clip being updated. It copies to `assets/<viewpoint>.mp4` without re-encoding.
-2. For a newly added animation, set its relative MP4 path in `park.js`, for example:
+   Run the command for each clip being updated. It copies to `assets/<viewpoint>[-<revision>].mp4`
+   without re-encoding. Use a new revision when replacing a published clip.
+2. Set the imported animation's relative MP4 path in `park.js`, for example:
 
    ```js
-   video: 'assets/cesta-k-parku.mp4',
+   video: 'assets/cesta-k-parku-v2.mp4',
    ```
 
 3. Keep the full 2:1 panorama projection and orientation aligned with the matching still. Use a

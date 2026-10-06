@@ -11,7 +11,7 @@ window.NOHO_PARK = {
       title: 'Cesta k parku',
       still: 'assets/cesta-k-parku-v2.webp',
       cubePrefix: 'assets/cube/cesta-k-parku-v2',
-      video: 'assets/cesta-k-parku.mp4',
+      video: 'assets/cesta-k-parku-v2.mp4',
     },
     {
       id: 'hriste',

@@ -205,21 +205,6 @@
   ],
   "videos": [
     {
-      "id": "cesta-k-parku",
-      "sourceFilename": "a12faa72-6316-44cf-bb3f-ecca65232d5e.mp4",
-      "path": "assets/cesta-k-parku.mp4",
-      "bytes": 2968559,
-      "sha256": "feee60d169e57a5084904610901daec51318cc61b07c43df3d0786a385c2d743",
-      "sourceSha256": "feee60d169e57a5084904610901daec51318cc61b07c43df3d0786a385c2d743",
-      "transcoded": false,
-      "width": 4096,
-      "height": 2048,
-      "codec": "h264",
-      "pixelFormat": "yuv420p",
-      "frameRate": "24/1",
-      "durationSeconds": 5.0
-    },
-    {
       "id": "hriste",
       "sourceFilename": "c687c57d-67ad-4091-ab0c-90bb51386229.mp4",
       "path": "assets/hriste.mp4",
@@ -229,6 +214,21 @@
       "transcoded": false,
       "width": 4096,
       "height": 2048,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "frameRate": "24/1",
+      "durationSeconds": 5.0
+    },
+    {
+      "id": "cesta-k-parku",
+      "sourceFilename": "kacice cesta park v2 8k.mp4",
+      "path": "assets/cesta-k-parku-v2.mp4",
+      "bytes": 25818531,
+      "sha256": "9eb8462887c9fc69519c6e19ec186b11a06fc612867beebfcad0c969d3a796be",
+      "sourceSha256": "9eb8462887c9fc69519c6e19ec186b11a06fc612867beebfcad0c969d3a796be",
+      "transcoded": false,
+      "width": 8192,
+      "height": 4096,
       "codec": "h264",
       "pixelFormat": "yuv420p",
       "frameRate": "24/1",
